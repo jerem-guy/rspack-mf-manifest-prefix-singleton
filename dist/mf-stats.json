@@ -1,0 +1,115 @@
+{
+  "id": "remote",
+  "name": "remote",
+  "metaData": {
+    "name": "remote",
+    "globalName": "remote",
+    "buildInfo": {
+      "buildVersion": "UNKNOWN",
+      "buildName": "rspack-mf-manifest-prefix-singleton"
+    },
+    "publicPath": "auto",
+    "remoteEntry": {
+      "name": "remote.js",
+      "path": "",
+      "type": "global"
+    }
+  },
+  "shared": [
+    {
+      "id": "remote:lib",
+      "name": "lib",
+      "version": "1.0.0",
+      "requiredVersion": "^1.0.0",
+      "singleton": false,
+      "assets": {
+        "js": {
+          "sync": [
+            "456.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      },
+      "usedIn": [
+        "src/exposed.js"
+      ],
+      "usedExports": []
+    },
+    {
+      "id": "remote:ds/Button",
+      "name": "ds/Button",
+      "version": "1.0.0",
+      "requiredVersion": "^1.0.0",
+      "singleton": true,
+      "assets": {
+        "js": {
+          "sync": [
+            "90.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      },
+      "usedIn": [
+        "src/exposed.js"
+      ],
+      "usedExports": []
+    },
+    {
+      "id": "remote:ds/Table",
+      "name": "ds/Table",
+      "version": "1.0.0",
+      "requiredVersion": "^1.0.0",
+      "singleton": true,
+      "assets": {
+        "js": {
+          "sync": [
+            "806.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      },
+      "usedIn": [
+        "src/exposed.js"
+      ],
+      "usedExports": []
+    }
+  ],
+  "remotes": [],
+  "exposes": [
+    {
+      "path": "./exposed",
+      "file": "src/exposed.js",
+      "id": "remote:exposed",
+      "name": "exposed",
+      "requires": [
+        "lib",
+        "ds/Button",
+        "ds/Table"
+      ],
+      "assets": {
+        "js": {
+          "sync": [
+            "813.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      }
+    }
+  ]
+}

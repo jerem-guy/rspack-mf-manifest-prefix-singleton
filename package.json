@@ -1,0 +1,17 @@
+{
+  "name": "rspack-mf-manifest-prefix-singleton",
+  "private": true,
+  "scripts": {
+    "build": "rspack build",
+    "check": "node check.mjs"
+  },
+  "dependencies": {
+    "ds": "file:./packages/ds",
+    "lib": "file:./packages/lib"
+  },
+  "devDependencies": {
+    "@module-federation/runtime-tools": "latest",
+    "@rspack/cli": "latest",
+    "@rspack/core": "latest"
+  }
+}

@@ -1,0 +1,1 @@
+"use strict";(self.rspackChunkrspack_mf_manifest_prefix_singleton=self.rspackChunkrspack_mf_manifest_prefix_singleton||[]).push([[813],{9828(s,e,n){n.r(e);var t=n(3444),a=n(1284),i=n(7175);n.d(e,{Button:()=>t.Button,Table:()=>a.Table,lib:()=>i.lib})}}]);

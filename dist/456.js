@@ -1,0 +1,1 @@
+"use strict";(self.rspackChunkrspack_mf_manifest_prefix_singleton=self.rspackChunkrspack_mf_manifest_prefix_singleton||[]).push([[456],{8571(s,e,i){i.r(e),i.d(e,{},{lib:"lib"})}}]);

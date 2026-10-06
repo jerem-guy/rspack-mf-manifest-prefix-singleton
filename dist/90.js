@@ -1,0 +1,1 @@
+"use strict";(self.rspackChunkrspack_mf_manifest_prefix_singleton=self.rspackChunkrspack_mf_manifest_prefix_singleton||[]).push([[90],{937(s,n,t){t.r(n),t.d(n,{},{Button:"Button"})}}]);
